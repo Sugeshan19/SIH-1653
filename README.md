@@ -15,14 +15,46 @@ Ministry of Defence
 
 ## Proposed Solution / Architecture Diagram
 
+![Screenshot 2025-03-06 113639](https://github.com/user-attachments/assets/dff4c03e-4c24-4488-84d1-8ab0f30d1e96)
+
 
 ## Use Cases
 
+1. Expert Conducting Interview
+2. AI-Based Question & Answer Relevance Analysis
+3. Performance Scoring & Analytics
+4. Security & Access Control
+5. Automated Bias Detection in Interviews
+6. Candidate Mock Interview & Preparation Mode
+7. Post-Interview Reporting & Insights for Experts
+8. Question Bank Management & Continuous Learning
+9. Multi-Level Interview Process Management
 
 ## Technology Stack
 
-
-![Screenshot 2025-03-06 113639](https://github.com/user-attachments/assets/dff4c03e-4c24-4488-84d1-8ab0f30d1e96)
+1. Frontend (User Interface)
+    Frameworks/Libraries: React.js, Next.js (for fast rendering), Tailwind CSS (for styling)
+    Real-time Communication: WebRTC (for video interviews), Socket.io (for real-time interactions)
+    UI Components: ShadCN/UI, Material-UI
+2. Backend (API & Business Logic)
+    Framework: Node.js (Express.js) or Django (Python)
+    Authentication: OAuth 2.0, JWT (JSON Web Token)
+    Real-time Data Processing: WebSockets, Kafka (for high-volume streaming data)
+    Microservices Architecture: Docker & Kubernetes
+3. AI & NLP (Interview Assessment Engine)
+    Language Processing: OpenAI GPT models, BERT (for question & answer relevance scoring)
+    Speech Analysis: Google Speech-to-Text, IBM Watson Speech API
+    Sentiment & Bias Detection: Transformers (Hugging Face), NLTK, Spacy
+    Scoring Algorithm: TensorFlow, PyTorch
+4. Database & Storage
+    Primary Database: PostgreSQL / MySQL (structured data)
+    NoSQL Database: MongoDB (for storing user responses and interview logs)
+    Caching: Redis (for fast retrieval of frequently used questions)
+    Cloud Storage: AWS S3 / Google Cloud Storage (for video interview recordings)
+5. Security & Compliance
+    Authentication & Role-Based Access Control (RBAC): Keycloak, Auth0
+    Encryption: AES-256, TLS 1.3 (for securing interview data)
+    DRDO Compliance: Adherence to MoD security protocols, VPN-based restricted access
 
 
 ## Dependencies
