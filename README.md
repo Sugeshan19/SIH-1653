@@ -1,7 +1,7 @@
 # Smart India Hackathon Workshop
 # Date:
-## Register Number:
-## Name:
+## Register Number:212224040337
+## Name:SUGESHAN.S
 ## Problem Title
 SIH 1653: Web based Selector-Applicant Simulation Software
 ## Problem Description
@@ -12,8 +12,10 @@ Ministry of Defence
 
 ## Idea
 
+An advanced AI-driven system that replicates a real-life boardroom interview experience, dynamically generates relevant questions, evaluates candidate responses in real time, and assigns quantifiable scores to ensure unbiased and efficient selection.
 
 ## Proposed Solution / Architecture Diagram
+
 
 ![Screenshot 2025-03-06 113639](https://github.com/user-attachments/assets/dff4c03e-4c24-4488-84d1-8ab0f30d1e96)
 
@@ -30,32 +32,38 @@ Ministry of Defence
 8. Question Bank Management & Continuous Learning
 9. Multi-Level Interview Process Management
 
+
 ## Technology Stack
 
 1. Frontend (User Interface)
-    Frameworks/Libraries: React.js, Next.js (for fast rendering), Tailwind CSS (for styling)
-    Real-time Communication: WebRTC (for video interviews), Socket.io (for real-time interactions)
-    UI Components: ShadCN/UI, Material-UI
+   1. Frameworks/Libraries: React.js, Next.js (for fast rendering), Tailwind CSS (for styling)
+   2. Real-time Communication: WebRTC (for video interviews), Socket.io (for real-time interactions)
+   3. UI Components: ShadCN/UI, Material-UI
 2. Backend (API & Business Logic)
-    Framework: Node.js (Express.js) or Django (Python)
-    Authentication: OAuth 2.0, JWT (JSON Web Token)
-    Real-time Data Processing: WebSockets, Kafka (for high-volume streaming data)
-    Microservices Architecture: Docker & Kubernetes
-3. AI & NLP (Interview Assessment Engine)
-    Language Processing: OpenAI GPT models, BERT (for question & answer relevance scoring)
-    Speech Analysis: Google Speech-to-Text, IBM Watson Speech API
-    Sentiment & Bias Detection: Transformers (Hugging Face), NLTK, Spacy
-    Scoring Algorithm: TensorFlow, PyTorch
-4. Database & Storage
-    Primary Database: PostgreSQL / MySQL (structured data)
-    NoSQL Database: MongoDB (for storing user responses and interview logs)
-    Caching: Redis (for fast retrieval of frequently used questions)
-    Cloud Storage: AWS S3 / Google Cloud Storage (for video interview recordings)
-5. Security & Compliance
-    Authentication & Role-Based Access Control (RBAC): Keycloak, Auth0
-    Encryption: AES-256, TLS 1.3 (for securing interview data)
-    DRDO Compliance: Adherence to MoD security protocols, VPN-based restricted access
+   1. Framework: Node.js (Express.js) or Django (Python)
+   2. Authentication: OAuth 2.0, JWT (JSON Web Token)
+   3. Real-time Data Processing: WebSockets, Kafka (for high-volume streaming data)
+   4. Microservices Architecture: Docker & Kubernetes
+4. AI & NLP (Interview Assessment Engine)
+   1. Language Processing: OpenAI GPT models, BERT (for question & answer relevance scoring)
+   2. Speech Analysis: Google Speech-to-Text, IBM Watson Speech API
+   3. Sentiment & Bias Detection: Transformers (Hugging Face), NLTK, Spacy
+   4. Scoring Algorithm: TensorFlow, PyTorch
+5. Database & Storage
+   1. Primary Database: PostgreSQL / MySQL (structured data)
+   2. NoSQL Database: MongoDB (for storing user responses and interview logs)
+   3. Caching: Redis (for fast retrieval of frequently used questions)
+   4. Cloud Storage: AWS S3 / Google Cloud Storage (for video interview recordings)
+6. Security & Compliance
+   1. Authentication & Role-Based Access Control (RBAC): Keycloak, Auth0
+   2. Encryption: AES-256, TLS 1.3 (for securing interview data)
+   3. DRDO Compliance: Adherence to MoD security protocols, VPN-based restricted access
 
 
 ## Dependencies
 
+1. Frontend Dependencies
+2. Backend Dependencies
+3. AI & NLP Dependencies
+4. DevOps & Deployment Dependencies
+5. External APIs & Integrations
