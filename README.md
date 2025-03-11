@@ -17,7 +17,7 @@ An advanced AI-driven system that replicates a real-life boardroom interview exp
 ## Proposed Solution / Architecture Diagram
 
 
-![Screenshot 2025-03-06 113639](https://github.com/user-attachments/assets/dff4c03e-4c24-4488-84d1-8ab0f30d1e96)
+![MIND MAP1](https://github.com/user-attachments/assets/b24ab4e2-b5c1-4184-80b7-64bae073770a)
 
 
 ## Use Cases
