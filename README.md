@@ -17,7 +17,10 @@ An advanced AI-driven system that replicates a real-life boardroom interview exp
 ## Proposed Solution / Architecture Diagram
 
 
-![MIND MAP1](https://github.com/user-attachments/assets/b24ab4e2-b5c1-4184-80b7-64bae073770a)
+
+![MIND MAP1](https://github.com/user-attachments/assets/300e4dca-7610-48f4-82b1-3b854e6cdb89)
+
+
 
 
 ## Use Cases
